@@ -1,9 +1,9 @@
-plugin-feedback
+plugin-comments
 ===============
 
-Plugin that adds a menu on top of an existing EnVadrouille gallery.
+Plugin that empowers EnVadrouille galleries with DISQUS comments.
 
 To install:
-* Create the following directory: ./admin/pages/menu
+* Create the following directory: ./admin/pages/comments
 * Put all files of this repository in that directory
-* Go in the options and activate the plugin.
+* Go in the options and activate the plugin. Do not forget to put your disqus shortname.
