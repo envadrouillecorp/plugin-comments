@@ -10,12 +10,8 @@ var JComments = {
       }
    },
 
-   change:function(action) {
-      JComments.showComments(action);
-      return false;
-   },
-
    want:function(action) {
+      JComments.showComments(action);
       return false;
    },
 
