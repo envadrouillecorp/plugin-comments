@@ -59,7 +59,7 @@ var JComments = {
       $('#wrapper').append($('<div id="discuss_container"><div id="disqus_thread" style="color:black; padding:10px; margin:auto;width:800px; background: none repeat scroll 0 0 rgba(254, 254, 254, 0.99); border: 1px solid rgba(255, 255, 255, 0.9); box-shadow: 0 2px 16px #999, 0 0 1px #000000, 0 0 1px #000000; margin-bottom:50px;"></div></div>'));
       (function() {
          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-         dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+         dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
 
